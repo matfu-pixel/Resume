@@ -1,0 +1,177 @@
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Artem Matveev}} & Email: {matfu21@ya.ru}\\
+  &Mobile:~~~+7-937-372-81-25 \\
+  &\href{https://github.com/matfu-pixel}{Github: ~~github.com/matfu-pixel} \\
+  &\href{https://codeforces.com/profile/matfu}{Codeforces: profile/matfu} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{~~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {AESC MSU Computer class}{Moscow, Russia}
+      {Algorithms, data structures, discrete mathematics}{September 2018 - June 2020}
+
+    \resumeSubheading
+      {MSU Faculty of Computational Mathematics and Cybernetics}{Moscow, Russia}
+      {Bachelor - Applied mathematics and computer science;  GPA: 4.71}{September 2020 - June 2024}
+    \resumeSubHeadingListEnd
+	    
+\vspace{-5pt}
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Programming}{~Python, C++, SQL, Bash}
+	\resumeSubItem{Frameworks}{~~~~SciPy, Numpy, Matplotlib, Pandas}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~~GIT, LaTex}
+	\resumeSubItem{Platforms}{~~~~~~~Linux, Windows}
+	\resumeSubItem{Soft Skills}{~~~~~~~Leadership, Time Management}
+	\resumeSubItem{Languages}{~~~~~~English(upper intermediate), Russian}
+    \resumeSubItem{Courses}{~~~~~~~~~~Advanced Data Structures and Algorithms, Algebra and Geometry, Introduction to Machine Learning}    {~~~~~~~~~~~~~~~~~~~~~~Python programming, C++ Programming}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading{Yandex Internship}{Office}
+    {Backend Developer (Part-time), Search portal}{February 2022 - July 2022}
+    \resumeItemListStart
+        \resumeItem{First direction}
+          {Optimize data preparation processes and their use in search runtime.}
+        \resumeItem{Second direction}
+          {Invent and implement new features for machine learning algorithms.}
+      \resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+%-----------School Olympiads-----------------
+\section{School Olympiads}
+\begin{description}[font=$\bullet$]
+\item {(1st level) Open Olympiad of schoolchildren in computer science -
+1st degree.}
+\item {(1st level) Individual Olympiad of schoolchildren in
+computer science and programming - 2nd degree.}
+\item (1st level) Olympiad of schoolchildren “Lomonosov” in computer science - 2nd degree.
+\item (1st level) All -Siberian Olympiad of schoolchildren in Computer Science
+- 3rd degree.
+\item All-Russian Olympiad of schoolchildren in Computer science
+(regional stage) - 2nd degree.
+\item All-Russian team Olympiad of schoolchildren in
+programming 2020 - 2nd degree.
+\end{description}
+\vspace{-5pt}
+
+%-----------University Olympiads-----------------
+\section{University Olympiads}
+\begin{description}[font=$\bullet$]
+\item ACM ICPC (Moscow Regional Competition 2020 November 15
+, 2020) - diploma of the 3rd degree.
+\item ACM ICPC (Final of Northern Eurasia 2020 on December 13
+, 2020) - diploma of the 2nd degree.
+\item ACM ICPC (North Eurasia 2020 Contest: Offline 3-4
+April 2021) - Certificate of Honor.
+\item ACM ICPC (Southern and Volga Russia) Qualifying tournament: NERC
+October 10, 2021) - 3rd place.
+\item RUCODE 4.0 festival on November 21, 2021 - winner.
+\item ACM ICPC (Moscow Regional Competition 2021 December 19
+, 2021) - diploma of the 3rd degree.
+\item RUCODE 5.0 festival on April 24, 2022 - winner
+
+\end{description}
+\vspace{-5pt}
+
+%-----------Machine Learning Contests and Hackathons-----------------
+\section{Machine Learning Contests and Hackathons}
+\begin{description}[font=$\bullet$]
+\item (at the course level) "cmc2021" - contest from A.G. Dyakonov - 3rd place.
+\item (at the course level) “Implementation of intersections by sets" - 1st place. 
+\item (university level) Hackaton CMC and MTS 2022 - 3rd place
+\item Hackaton OVISION HACK - participation
+
+\end{description}
+\vspace{-5pt}
+
+%-----------Additional Achievements-----------------
+\section{Additional Achievements}
+\begin{description}[font=$\bullet$]
+\item Participant of joint scientific seminar INM RAS - Huawei
+\item Winner of Huawei scholarship, autumn 2021 (3rd semester) and spring 2022 (4rd semester): mathematical essay on the topic "Evaluation of the Intrinsic dimension of data".
+\item Twice I receive an increased state scholarship for special achievements in education, 3rd semester and 4rd semester. 
+\item I received a scholarship from the Moscow government (1st and 2nd semester).
+\vspace{-5pt}
+
+\end{description}
+
+\end{document}
